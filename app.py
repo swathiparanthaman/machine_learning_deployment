@@ -5,7 +5,7 @@ import os
 
 app = Flask(__name__)
 
-model = joblib.load("decision_tree_model.joblib")
+model = joblib.load("decision_tree_model (2).joblib")
 features = ["bottom_cm", "middle_cm", "top_cm"]
 
 @app.route("/")
